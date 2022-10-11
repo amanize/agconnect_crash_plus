@@ -1,5 +1,8 @@
 # AppGallery Connect Crash for Flutter
 
+## Note
+It is not original Huawei plugin. This is a fork of https://pub.dev/packages/agconnect_crash with support of null safety and ios runtime patch.
+
 ## Introduction
 
 The AppGallery Connect Crash service provides a powerful yet lightweight solution to app crash problems. With the service, you can quickly detect, locate, and resolve app crashes (unexpected exits of apps), and have access to highly readable crash reports in real time, without the need to write any code.
