@@ -138,7 +138,7 @@ public class AGConnectCrashPlugin implements FlutterPlugin, MethodCallHandler {
                 }
                 String[] fileInfo = contents[2].split(":");
                 if (fileInfo.length == 4) {
-                    lineNumber = Integer.valueOf(fileInfo[2]);
+                    lineNumber = Integer.parseInt(fileInfo[2]);
                     fileName = fileInfo[0] + ":" + fileInfo[1];
                 }
             }
